@@ -19,7 +19,7 @@ public class SiakadWhile08 {
             }
 
             if (nilai > 80 && nilai <= 100) {
-                System.out.println("nilai mahasiswa ke-" + (i+1) +"adalah A");
+                System.out.println("nilai mahasiswa ke-" + (i+1) + "adalah A");
             } else if (nilai > 73 && nilai <= 80) {
                 System.out.println("nilai mahasiswa ke-" + (i+1) + "adalah B+");
             } else if (nilai > 65 && nilai <= 73) {
@@ -31,7 +31,7 @@ public class SiakadWhile08 {
             } else if (nilai > 39 && nilai <= 50) {
                 System.out.println("nilai mahasiswa ke-" + (i+1) + "adalah D");
             } else {
-                System.out.println("nilai mahasiswa ke-" +(i+1) +"adalah E");
+                System.out.println("nilai mahasiswa ke-" +(i+1) + "adalah E");
             }
             i++;
         }
