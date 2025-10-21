@@ -18,5 +18,7 @@ public class SiakadFor08 {
                 
             }
         }
+        System.out.println("Nilai tertinggi : " + tertinggi);
+        System.out.println("Nilai terendah :" + terendah);
     }
 }
