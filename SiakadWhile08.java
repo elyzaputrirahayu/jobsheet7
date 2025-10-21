@@ -8,7 +8,11 @@ public class SiakadWhile08 {
 
         System.out.println("masukkan jumlah mahasiswa :");
         jml = sc.nextInt();
-        
+
+        while (i < jml) {
+            i++;
+        }
+
     }
     
 }
