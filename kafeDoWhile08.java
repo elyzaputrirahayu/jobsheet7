@@ -6,5 +6,9 @@ public class kafeDoWhile08 {
 
         int kopi = 12000, teh = 7000, roti = 20000;
         String namaPelanggan;
+
+        do {
+
+        } while(true);
     }
 }
