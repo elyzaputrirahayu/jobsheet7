@@ -30,6 +30,11 @@ public class PenjualanTiketBioskop {
             System.out.println("Total harga pembelian: Rp " + totalHarga);
             totalTiketTerjual += jumlahTiket;
             totalPenjualan += totalHarga;
+
+        System.out.println("======================================");
+        System.out.println("Total tiket terjual hari ini: " + totalTiketTerjual);
+        System.out.println("Total penjualan hari ini: Rp " + totalPenjualan);
+        System.out.println("======================================");
         }
         
     }
