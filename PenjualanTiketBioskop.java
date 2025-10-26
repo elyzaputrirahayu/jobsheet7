@@ -13,7 +13,21 @@ public class PenjualanTiketBioskop {
         while (true) {
             System.out.print("Masukkan jumlah tiket yang dibeli (ketik -1 untuk selesai): ");
             jumlahTiket = sc.nextInt();
+            if (jumlahTiket == -1) {
+                break;
+            }
+            if (jumlahTiket < 0) {
+                System.out.println("Jumlah tiket tidak valid, silakan masukkan ulang!");
+                continue; // kembali ke atas perulangan
+            }
+            if (jumlahTiket > 10) {
+                totalHarga = jumlahTiket * hargaTiket * 0.85; // diskon 15%
+            } else if (jumlahTiket > 4) {
+                totalHarga = jumlahTiket * hargaTiket * 0.90; // diskon 10%
+            } else {
+                totalHarga = jumlahTiket * hargaTiket; // tanpa diskon
+            }
+
         
     }
-
 }
