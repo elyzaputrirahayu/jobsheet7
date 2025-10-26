@@ -8,7 +8,19 @@ import java.util.Scanner;
         do {
             System.out.println("Masukkan jenis kendaraan (1. Mobil, 2. Motor, 0. Keluar): ");
             jenis = sc.nextInt();
+            
+            // Jika pengguna ingin keluar
+            if (jenis == 0) {
+                break;
+            }
+
+            // Validasi jenis kendaraan
+            if (jenis != 1 && jenis != 2) {
+                System.out.println("Jenis kendaraan tidak valid! Masukkan 1 untuk Mobil atau 2 untuk Motor.");
+                continue;
+            }
 
     }
+}
 }
 
