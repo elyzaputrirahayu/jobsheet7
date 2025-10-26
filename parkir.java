@@ -4,8 +4,11 @@ import java.util.Scanner;
         Scanner sc = new Scanner(System.in);
         int jenis, durasi;
         int total = 0;
+        
+        do {
+            System.out.println("Masukkan jenis kendaraan (1. Mobil, 2. Motor, 0. Keluar): ");
+            jenis = sc.nextInt();
 
-       
     }
 }
 
