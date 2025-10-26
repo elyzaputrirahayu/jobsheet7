@@ -27,7 +27,10 @@ public class PenjualanTiketBioskop {
             } else {
                 totalHarga = jumlahTiket * hargaTiket; // tanpa diskon
             }
-
+            System.out.println("Total harga pembelian: Rp " + totalHarga);
+            totalTiketTerjual += jumlahTiket;
+            totalPenjualan += totalHarga;
+        }
         
     }
 }
