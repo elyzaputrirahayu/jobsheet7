@@ -22,6 +22,19 @@ import java.util.Scanner;
 
             System.out.print("Masukkan durasi parkir (jam): ");
             durasi = sc.nextInt();
+
+            
+            // Hitung tarif
+            if (durasi > 5) {
+                total += 12500;
+            } else if (jenis == 1) { // Mobil
+                total += durasi * 3000;
+            } else if (jenis == 2) { // Motor
+                total += durasi * 2000;
+            }
+
+        } while (jenis != 0);
+
     }
 }
 }
