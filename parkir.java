@@ -34,8 +34,9 @@ import java.util.Scanner;
             }
 
         } while (jenis != 0);
+        System.out.println("Total pembayaran parkir hari ini: Rp " + total);
+        sc.close();
 
     }
-}
 }
 
