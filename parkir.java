@@ -20,6 +20,8 @@ import java.util.Scanner;
                 continue;
             }
 
+            System.out.print("Masukkan durasi parkir (jam): ");
+            durasi = sc.nextInt();
     }
 }
 }
